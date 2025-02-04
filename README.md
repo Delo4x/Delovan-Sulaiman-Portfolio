@@ -1,1 +1,0 @@
-# Delovan-Sulaiman-Portfolio
