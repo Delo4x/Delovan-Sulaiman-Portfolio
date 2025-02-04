@@ -11,6 +11,26 @@ body {
     display: flex;
     flex-direction: column;
 }
+/* ===== SOCIAL ICONS - STÖRRE OCH GRÖN HOVER ===== */
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Ger mellanrum mellan ikonerna */
+    margin-top: 20px; /* Avstånd från texten ovan */
+}
+
+.contact-icons a {
+    font-size: 40px; /* Gör ikonerna större */
+    color: #7f7f7f; /* Standardfärg på ikoner */
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-icons a:hover {
+    color: #00ff88; /* Lyser grönt vid hover */
+    text-shadow: 0 0 15px #00ff88, 0 0 30px #00ff88; /* Glow-effekt */
+    transform: scale(1.2); /* Gör ikonen lite större vid hover */
+}
 
 /* ===== NAVIGATION ===== */
 nav {
